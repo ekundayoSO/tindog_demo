@@ -1,0 +1,204 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/******Targing all elements within a particular container using DIV*/
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;     /*Targetting Testimonials section*/
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif; /*targetting section 2 h3*/
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;   /*Targetting section 2 paragraph*/
+}
+
+/*Navigation Bar*/
+
+.navbar {
+     padding-bottom: 2.5rem;
+
+}
+
+/*******Targetting the "tindog" on the left hand-side of the website****/
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;                /******Spacing the download button down from the h1 because it's too close*/
+}
+
+/******Rotating the Title-Image to different angles*/
+
+.title-image {
+    width: 20%;                                 /*RE-CHECK THIS CODE*/
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+#features {
+    padding: 7% 11%;                           /*Tragetting section 2 whole text and images*/
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;                              /*Targetting section 2 text*/
+    
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+/*i = icon {         /*My own effort, I combined everything in one place, rather they should all be separated.
+    color: #ef8172;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 10px auto;  
+}*/
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    /*padding: 7% 15%;*/
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+     padding: 7% 15%;    /* It takes the sliding arrow out of the testimonial-box*/
+
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo { 
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card {
+    height: 100%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff; 
+    font-weight: bold;
+    text-align: center; 
+    padding: 7% 15%;
+
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+   /* margin: 5% 3% 5% 0; *//****check download-button css***//******Spacing the download button down from the h1 because it's too close*/
+}
+
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-media-icon {
+    margin: 20px 10px;
+}
+
+
+#title {
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+/* TO MAKE THE CONTACT, PRICEING AND DOWNLOAD BUTTONS ON FROM PAGE OF THIS WEBSITE FUNCTIONAL, WATCH VIDEO 86 @ 10 MINUTES
+ <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a> 
+        </li>
+    </ul>
+
+*/
+
+
+/* YOU MUST REMAIN DRY- AS A PROGRAMMER, DON'T REPEAT YOURSELF WITH DUPLICATE CODES*/
+/* WET CODE MEANS OPPOSITE OF DRY- REPETITION OF CODE*/
